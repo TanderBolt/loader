@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "lib": ["es2018", "dom"],
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "target": "es2018",
+    "typeRoots": ["node_modules/@types"],
+    "types": ["node", "./src/types/webpack"]
+  },
+  "include": ["./src/**/*.ts", "./test/**/*.ts"]
+}
